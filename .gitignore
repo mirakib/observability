@@ -1,0 +1,12 @@
+# Sensitive configuration and secrets to ignore
+alertmanager.yml
+smtp_password
+grafana.ini
+.env
+
+# Alternatively, if you want to ensure any file with these names 
+# is ignored anywhere in the project subdirectories, use:
+# **/alertmanager.yml
+# **/smtp_password
+# **/grafana.ini
+# **/.env
